@@ -1,13 +1,11 @@
 attend=$((RANDOM%2))
-full_wage=160
-no_wage=0
 
-if (( $attend == 0 ))
+if (( $attend == 1 ))
 then
-        echo "Day No:" "Wage"
-        echo "Day 1  "  $full_wage
+        
+        echo "employe present"
+
 else
-        echo "Day No:" "Wage"
-        echo "Day 1  "  $no_wage
+        echo "employee absend"
 fi
 
